@@ -1,13 +1,108 @@
 body {
+  background-color: #f6eee3;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.Header {
+  text-align: center;
+}
+.Form {
+  text-align: center;
+}
+#myUnordList {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 50px;
+}
+#myUnordList ul {
+  list-style-type: none;
+}
+
+.container {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.centerclear {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item-card {
+  border-radius: 10px;
+  background-color: #faf9f6;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 200px;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Delete {
+  background-color: #ff6666;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.todo-item .Delete {
+  margin-left: auto;
+}
+.AddBtn {
+  background-color: #a8d38d;
+  border: none;
+  cursor: pointer;
+  margin-right: 5px;
+  margin-left: 5px;
+  border-radius: 5px;
+  width: 100px;
+  height: 23px;
+}
+
+.Form input[type="text"] {
+  border-radius: 5px;
+  margin-left: 5px;
+  height: 17px;
+}
+
+.percent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Clear {
+  background-color: #ff6666;
+  border: none;
+  cursor: pointer;
+  margin-right: 5px;
+  margin-left: 10px;
+  border-radius: 5px;
+  width: 100px;
+  height: 23px;
+}
+
+.checkbox {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
 }
